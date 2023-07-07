@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  height: 2500px;
+    /* background-size: cover; */
+    color: #fff;
+    margin-top: -30px;
+    /* height: 8000px; */
+}
+
+
+.container {
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    width: 800px !important;
+}
+.container h1{
+    text-align: center;
+}
+
+.container button a{
+  text-decoration: none;
+  color: white;
+}
+
+/* 
+.button{
+  padding: 40px;
+}
+.conatiner button{
+    position: relative;
+    margin-left: 400px;
+} */
+
+/* Form styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color:  white;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    background-color: #ddd;
+  }
+  
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Resume output styles */
+  #resume-output {
+    background-color: #1e81b0;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #resume-output h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #resume-output h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #resume-output p {
+    margin-bottom: 10px;
+  }
+  
+  #resume-output hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  .resume {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .resume h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .resume h3 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .resume p {
+    margin-bottom: 10px;
+  }
+  
+  .resume hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .resume-download {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .resume-download a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .resume-download a:hover {
+    background-color: #218838;
+  }
+
+#resume-form input, textarea{
+    background: white !important;
+  }
